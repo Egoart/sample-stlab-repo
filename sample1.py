@@ -1,3 +1,5 @@
 hello_str = 'Hello world!'
 
-print(hello_str)
+hey_str = 'Hey! '
+
+print(hey_str + hello_str)
