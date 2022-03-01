@@ -1,3 +1,7 @@
-hello_str = 'Hello world!'
+from datetime import datetime
 
-print(hello_str)
+time_now = str(datetime.now()) + ' is now'
+
+hello_str = 'Hello world! \n'
+
+print(hello_str + time_now)
